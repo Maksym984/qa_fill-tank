@@ -3,17 +3,15 @@
 const { fillTank } = require("./fillTank");
 
 describe('fillTank', () => {
-  // const { fillTank } = require('./fillTank');
+  
 
-  it('should ', () => {
-
-  });
+ 
   
   it(`should fill tank correctly and update money`, () => {
   const customer = {
     money: 3000,
     vehicle: {
-      maxTankCapacity: 40,
+      maxTankCapacity: 40, //dhgygd
       fuelRemains: 8,
     }
   };
